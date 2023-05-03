@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int value[3];
+printf   ("Enter Array Elements:\n");
+scanf("%d %d %d",&value[0],&value[1],&value[2]);
+printf("%d\n%d\n%d\n", value[0],value[1],value[2]);
+return 0;
+}
